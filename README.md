@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# E-Commerce Web Shop App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I've utilized this app from [JavaScript Mastery, ECommerce Web Shop](https://www.youtube.com/watch?v=377AQ0y6LPA&list=PL6QREj8te1P6wX9m5KnicnDVEucbOPsqR&index=5) video. Before telling about app, here is the link that I [published on netlify](https://e-commerce-by-emre.netlify.app/) and the gif that you can take a quick look through the app :
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+<p align="center">
+    <img src="https://raw.githubusercontent.com/emreharman/e-commerce/master/src/assets/published.gif">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2> 1. Cloning and Running App :computer:</h2>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can download this app to your local using `git clone https://github.com/emreharman/e-commerce.git` command on your bash. Then open your terminal in the folder that you cloned and open your command line, use `yarn install` command. This command will install all the dependencies that I use in the app. Finally use `yarn start` command to run the app.
 
-### `npm run build`
+<h2> 2. About App :warning: </h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This app is the simulation of an e-commerce site. You can enter a test credit card as I use on the gif, just keep pressing 4 and 2. I didn't use any database to store any information. I've used commerce.js to handle cart and checkout operations. Also I've stored the info's of products in the commerce.js. It's very useful to use commerce.js for storing your product's info's and i can handle all of cart and checkout operations.In this way, you don't need to write any backend or database or etc.
 
-### `npm run eject`
+<h2> 3. Dependencies :open_file_folder:</h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+In this app I've used **_Material UI_**, **_Commerce.js_**, **_Stripe.js_**, **_React-Router_** and **_React-Hooks_**.
+There are the commands that you can use to install these dependencies. (I've used yarn, you can use `npm install` instead of `yarn add` if you're using npm).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- ` yarn add @material-ui/core @material-ui/icons`
+- `yarn add @chec/commerce.js`
+- `yarn add @stripe/react-stripe-js @stripe/stripe-js`
+- `yarn add react-router-dom`
+- `yarn add react-hook-form`
